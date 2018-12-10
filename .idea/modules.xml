@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium_tests.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium_tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium_tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium_tests_main.iml" group="selenium_tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium_tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium_tests_test.iml" group="selenium_tests" />
     </modules>
   </component>
 </project>
