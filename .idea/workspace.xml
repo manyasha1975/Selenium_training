@@ -2,42 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23fce5d1-4665-4f7e-9e96-f174f35d66ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/selenium_tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/selenium_tests_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/selenium_tests_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_tests/out/test/classes/LoginAdminTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tests/out/test/classes/LoginAdminTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyFirstProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/selenium_tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/selenium_tests/build/" />
     <ignored path="$PROJECT_DIR$/selenium_tests/out/" />
+    <ignored path="$PROJECT_DIR$/sandbox/.gradle/" />
+    <ignored path="$PROJECT_DIR$/sandbox/build/" />
+    <ignored path="$PROJECT_DIR$/sandbox/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +29,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/sandbox">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/selenium_tests">
       <ProjectState />
     </projectState>
@@ -58,14 +44,39 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="493">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAdminTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFirstProgram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/MyFirstProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,16 +97,34 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox" value="D:\Tools\gradle-4.7" />
         <entry key="$PROJECT_DIR$/selenium_tests" value="C:\Users\Maria\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox" value="4.7" />
         <entry key="$PROJECT_DIR$/selenium_tests" value="4.4" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="sandbox" />
+              <option name="path" value="$PROJECT_DIR$/sandbox" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sandbox" />
+                <option name="path" value="$PROJECT_DIR$/sandbox" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -116,6 +145,177 @@
     </option>
     <option name="availableTasks">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'sandbox'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'sandbox'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'sandbox'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'sandbox'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sandbox" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/selenium_tests">
           <value>
             <list>
@@ -261,6 +461,9 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox" value="3088846628588" />
+        <entry key="$PROJECT_DIR$/sandbox/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/sandbox/build.gradle" value="947336508" />
         <entry key="$PROJECT_DIR$/selenium_tests" value="6177708769743" />
         <entry key="$PROJECT_DIR$/selenium_tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/selenium_tests/build.gradle" value="3111519918" />
@@ -270,6 +473,175 @@
     </option>
     <option name="projectBuildClasspath">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/sandbox">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/sandbox" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="sandbox" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/Tools/gradle-4.7/src/announce" />
+                  <option value="D:/Tools/gradle-4.7/src/antlr" />
+                  <option value="D:/Tools/gradle-4.7/src/base-services" />
+                  <option value="D:/Tools/gradle-4.7/src/base-services-groovy" />
+                  <option value="D:/Tools/gradle-4.7/src/build-cache" />
+                  <option value="D:/Tools/gradle-4.7/src/build-cache-http" />
+                  <option value="D:/Tools/gradle-4.7/src/build-comparison" />
+                  <option value="D:/Tools/gradle-4.7/src/build-init" />
+                  <option value="D:/Tools/gradle-4.7/src/build-option" />
+                  <option value="D:/Tools/gradle-4.7/src/cli" />
+                  <option value="D:/Tools/gradle-4.7/src/code-quality" />
+                  <option value="D:/Tools/gradle-4.7/src/composite-builds" />
+                  <option value="D:/Tools/gradle-4.7/src/core" />
+                  <option value="D:/Tools/gradle-4.7/src/core-api" />
+                  <option value="D:/Tools/gradle-4.7/src/dependency-management" />
+                  <option value="D:/Tools/gradle-4.7/src/diagnostics" />
+                  <option value="D:/Tools/gradle-4.7/src/ear" />
+                  <option value="D:/Tools/gradle-4.7/src/ide" />
+                  <option value="D:/Tools/gradle-4.7/src/ide-native" />
+                  <option value="D:/Tools/gradle-4.7/src/ide-play" />
+                  <option value="D:/Tools/gradle-4.7/src/installation-beacon" />
+                  <option value="D:/Tools/gradle-4.7/src/internal-android-performance-testing" />
+                  <option value="D:/Tools/gradle-4.7/src/internal-integ-testing" />
+                  <option value="D:/Tools/gradle-4.7/src/internal-performance-testing" />
+                  <option value="D:/Tools/gradle-4.7/src/internal-testing" />
+                  <option value="D:/Tools/gradle-4.7/src/ivy" />
+                  <option value="D:/Tools/gradle-4.7/src/jacoco" />
+                  <option value="D:/Tools/gradle-4.7/src/javascript" />
+                  <option value="D:/Tools/gradle-4.7/src/jvm-services" />
+                  <option value="D:/Tools/gradle-4.7/src/language-groovy" />
+                  <option value="D:/Tools/gradle-4.7/src/language-java" />
+                  <option value="D:/Tools/gradle-4.7/src/language-jvm" />
+                  <option value="D:/Tools/gradle-4.7/src/language-native" />
+                  <option value="D:/Tools/gradle-4.7/src/language-scala" />
+                  <option value="D:/Tools/gradle-4.7/src/launcher" />
+                  <option value="D:/Tools/gradle-4.7/src/logging" />
+                  <option value="D:/Tools/gradle-4.7/src/maven" />
+                  <option value="D:/Tools/gradle-4.7/src/messaging" />
+                  <option value="D:/Tools/gradle-4.7/src/model-core" />
+                  <option value="D:/Tools/gradle-4.7/src/model-groovy" />
+                  <option value="D:/Tools/gradle-4.7/src/native" />
+                  <option value="D:/Tools/gradle-4.7/src/osgi" />
+                  <option value="D:/Tools/gradle-4.7/src/persistent-cache" />
+                  <option value="D:/Tools/gradle-4.7/src/platform-base" />
+                  <option value="D:/Tools/gradle-4.7/src/platform-jvm" />
+                  <option value="D:/Tools/gradle-4.7/src/platform-native" />
+                  <option value="D:/Tools/gradle-4.7/src/platform-play" />
+                  <option value="D:/Tools/gradle-4.7/src/plugin-development" />
+                  <option value="D:/Tools/gradle-4.7/src/plugin-use" />
+                  <option value="D:/Tools/gradle-4.7/src/plugins" />
+                  <option value="D:/Tools/gradle-4.7/src/process-services" />
+                  <option value="D:/Tools/gradle-4.7/src/publish" />
+                  <option value="D:/Tools/gradle-4.7/src/reporting" />
+                  <option value="D:/Tools/gradle-4.7/src/resources" />
+                  <option value="D:/Tools/gradle-4.7/src/resources-gcs" />
+                  <option value="D:/Tools/gradle-4.7/src/resources-http" />
+                  <option value="D:/Tools/gradle-4.7/src/resources-s3" />
+                  <option value="D:/Tools/gradle-4.7/src/resources-sftp" />
+                  <option value="D:/Tools/gradle-4.7/src/scala" />
+                  <option value="D:/Tools/gradle-4.7/src/signing" />
+                  <option value="D:/Tools/gradle-4.7/src/test-kit" />
+                  <option value="D:/Tools/gradle-4.7/src/testing-base" />
+                  <option value="D:/Tools/gradle-4.7/src/testing-junit-platform" />
+                  <option value="D:/Tools/gradle-4.7/src/testing-jvm" />
+                  <option value="D:/Tools/gradle-4.7/src/testing-native" />
+                  <option value="D:/Tools/gradle-4.7/src/tooling-api" />
+                  <option value="D:/Tools/gradle-4.7/src/tooling-api-builders" />
+                  <option value="D:/Tools/gradle-4.7/src/version-control" />
+                  <option value="D:/Tools/gradle-4.7/src/workers" />
+                  <option value="D:/Tools/gradle-4.7/src/wrapper" />
+                  <option value="D:/Tools/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="D:/Tools/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/sandbox/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/sandbox/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/selenium_tests">
           <value>
             <ExternalProjectBuildClasspathPojo>
@@ -372,6 +744,7 @@
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$/sandbox" value="IMPORT" />
         <entry key="$PROJECT_DIR$/selenium_tests" value="RE_IMPORT" />
       </map>
     </option>
@@ -381,6 +754,7 @@
       <list>
         <option value="$PROJECT_DIR$/selenium_tests/build.gradle" />
         <option value="$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java" />
+        <option value="$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java" />
       </list>
     </option>
   </component>
@@ -398,34 +772,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="selenium_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="selenium_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -443,14 +812,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyFirstTest">
-    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginAdminTest">
+    <configuration name="MyFirstProgram" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyFirstProgram" />
-      <module name="main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="sandbox_main" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LoginAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_tests_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginAdminTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_tests_test" />
@@ -510,11 +896,12 @@
     <list>
       <item itemvalue="Application.MyFirstProgram" />
       <item itemvalue="JUnit.MyFirstTest" />
+      <item itemvalue="JUnit.LoginAdminTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginAdminTest" />
         <item itemvalue="JUnit.MyFirstTest" />
-        <item itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -532,54 +919,166 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest - 2018.12.10 at 12h 58m 13s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="LoginAdminTest - 2018.12.10 at 20h 33m 30s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 12h 00m 11s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 12h 02m 55s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 19h 23m 56s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 19h 37m 14s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 19h 38m 51s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 19h 40m 27s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 19h 41m 31s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.11 at 21h 22m 21s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginAdminTest - 2018.12.13 at 14h 35m 09s.xml">
+      <configuration name="LoginAdminTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info anchor="bottom" id="Build" weight="0.32884902" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884902" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstProgram.java">
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/MyFirstProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstProgram.java" />
     <entry file="file://$PROJECT_DIR$/selenium_tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -589,10 +1088,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="493">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_tests/src/test/java/LoginAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/MyFirstProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,7 +1169,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>selenium_tests_test|selenium_tests</last-edited>
+          <last-edited>sandbox|selenium_tests</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
