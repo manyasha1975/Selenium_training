@@ -50,7 +50,8 @@ public class ApplicationManager {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     wait = new WebDriverWait(driver, 10);
     driver.get(properties.getProperty("web.baseUrl"));
-    sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
+    //driver.get(properties.getProperty("web.adminUrl"));
+    //sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
   }
 
   public void stop() {
