@@ -10,7 +10,7 @@ public class StickerVerificationTests extends TestBase {
 
   @Test
   public void testStickerVerification() {
-    List<WebElement> ducks = app.driver.findElements(By.cssSelector("div.content ul.listing-wrapper.products li"));
+    List<WebElement> ducks = app.driver.findElements(By.cssSelector("div.content .products li"));
     for (WebElement duck : ducks) {
       String link = duck.findElement(By.cssSelector("a")).getAttribute("href");
       System.out.println("1. Товар: " + link);
