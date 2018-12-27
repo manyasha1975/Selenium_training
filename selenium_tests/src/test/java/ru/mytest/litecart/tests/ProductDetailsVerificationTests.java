@@ -6,16 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class ProductDetailsVerificationTests extends TestBase {
 
   @Test
   public void testProductDetailsVerification() {
-    List<WebElement> ducks = app.driver.findElements(By.cssSelector("div#box-campaigns ul.listing-wrapper.products li"));
+    List<WebElement> ducks = app.driver.findElements(By.cssSelector("div#box-campaigns .products li"));
     //get information from main page
     String name = ducks.get(0).findElement(By.cssSelector("div.name")).getAttribute("textContent");
     String manufacturer = ducks.get(0).findElement(By.cssSelector("div.manufacturer")).getAttribute("textContent");
