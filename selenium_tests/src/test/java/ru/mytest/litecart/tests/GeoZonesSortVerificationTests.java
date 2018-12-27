@@ -1,6 +1,7 @@
 package ru.mytest.litecart.tests;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
+
 public class GeoZonesSortVerificationTests extends TestBase {
+
+  @Before
+  public void loginAdmin() {
+    app.driver.get("http://localhost/litecart/admin/");
+    app.driver.findElement(By.name("username")).sendKeys("admin");
+    app.driver.findElement(By.name("password")).sendKeys("admin");
+    app.driver.findElement(By.name("login")).click();
+    app.wait.until(titleIs("My Store"));
+  }
 
   @Test
   public void testGeoZonesSortVerification() {

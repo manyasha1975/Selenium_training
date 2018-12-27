@@ -27,6 +27,7 @@ public class ApplicationManager {
   public String baseUrl;
   public StringBuffer verificationErrors = new StringBuffer();
   private String browser;
+  private String user;
   public WebDriverWait wait;
 
   public ApplicationManager(String browser) {
@@ -46,12 +47,12 @@ public class ApplicationManager {
       driver = new InternetExplorerDriver();
     }
     baseUrl = "https://www.katalon.com/";
-    sessionHelper = new SessionHelper(this);
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     wait = new WebDriverWait(driver, 10);
-    //driver.get(properties.getProperty("web.baseUrl"));
-    driver.get(properties.getProperty("web.adminUrl"));
-    sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
+    sessionHelper = new SessionHelper(this);
+    driver.get(properties.getProperty("web.baseUrl"));
+    //driver.get(properties.getProperty("web.adminUrl"));
+    //sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
   }
 
   public void stop() {
