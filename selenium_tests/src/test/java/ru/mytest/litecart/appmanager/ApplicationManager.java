@@ -55,6 +55,10 @@ public class ApplicationManager {
     //sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
   }
 
+  public String getProperty(String key) {
+    return properties.getProperty(key);
+  }
+
   public void stop() {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();

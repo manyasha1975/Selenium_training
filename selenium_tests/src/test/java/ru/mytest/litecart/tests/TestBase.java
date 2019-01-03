@@ -1,8 +1,8 @@
 package ru.mytest.litecart.tests;
 
-import org.openqa.selenium.remote.BrowserType;
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.remote.BrowserType;
 import ru.mytest.litecart.appmanager.ApplicationManager;
 
 public class TestBase {
