@@ -48,7 +48,7 @@ public class ApplicationManager {
     }
     baseUrl = "https://www.katalon.com/";
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    wait = new WebDriverWait(driver, 10);
+    wait = new WebDriverWait(driver, 5);
     sessionHelper = new SessionHelper(this);
     driver.get(properties.getProperty("web.baseUrl"));
     //driver.get(properties.getProperty("web.adminUrl"));
