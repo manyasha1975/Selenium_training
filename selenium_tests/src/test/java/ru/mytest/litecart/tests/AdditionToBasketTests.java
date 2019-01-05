@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.numberOfElementsToBe;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBe;
 
 public class AdditionToBasketTests extends TestBase {
@@ -33,10 +34,12 @@ public class AdditionToBasketTests extends TestBase {
     }
     //deletion from cart
     app.driver.findElement(By.cssSelector("a[href='http://localhost/litecart/en/checkout']")).click();
-    for (int i = 0; i < 3; i++) {
-      List<WebElement> products = app.driver.findElements(By.cssSelector("table.dataTable tr td.item"));
+    List<WebElement> quantity = app.driver.findElements(By.cssSelector("table.dataTable tr td.item"));
+    Integer number = quantity.size();
+    for (int i = 0; i < quantity.size(); i++) {
       app.driver.findElement(By.cssSelector("button[name='remove_cart_item']")).click();
-      app.wait.until(ExpectedConditions.stalenessOf(products.get(0)));
+      app.wait.until(numberOfElementsToBe(By.cssSelector("table.dataTable tr td.item"), number - 1));
+      number = number - 1;
     }
     String noProducts = app.driver.findElement(By.cssSelector("div#checkout-cart-wrapper em"))
             .getAttribute("textContent");
