@@ -25,10 +25,5 @@ public class MyFirstTest extends TestBase {
     app.driver.findElement(By.name("btnK")).submit();
     app.wait.until(titleIs("webdriver - Поиск в Google"));
   }
-/*
-  @After
-  public void stop() {
-    driver.quit();
-    driver = null;
-  }*/
+
 }

@@ -8,17 +8,11 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
-
 public class LogMessagesVerificationTests extends TestBase {
 
   @Before
   public void loginAdmin() {
-    app.driver.get("http://localhost/litecart/admin/");
-    app.driver.findElement(By.name("username")).sendKeys("admin");
-    app.driver.findElement(By.name("password")).sendKeys("admin");
-    app.driver.findElement(By.name("login")).click();
-    app.wait.until(titleIs("My Store"));
+    app.session().loginAs("admin", "admin");
   }
 
   @Test

@@ -10,11 +10,26 @@ public class SessionHelper extends HelperBase {
     super(app);
   }
 
-  public void login(String username, String password) {
-    driver.findElement(By.name("username")).sendKeys(username);
-    driver.findElement(By.name("password")).sendKeys(password);
-    driver.findElement(By.name("login")).click();
-    app.wait.until(titleIs("My Store"));
+  public void loginAs(String username, String password) {
+    if (username.equals("admin")) {
+      app.goTo().adminPage();
+      type(By.name("username"), username);
+      type(By.name("password"), password);
+      click(By.name("login"));
+      waitTitle("My Store");
+    } else {
+      type(By.cssSelector("input[name='email']"), username);
+      type(By.cssSelector("input[name='password']"), password);
+      click(By.cssSelector("button[name='login']"));
+      waitTitle("Online Store | My Store");
+    }
   }
 
+  public void logout() {
+    click(By.cssSelector("a[href *= logout]"));
+  }
+
+  public void waitTitle(String text) {
+    app.wait.until(titleIs(text));
+  }
 }

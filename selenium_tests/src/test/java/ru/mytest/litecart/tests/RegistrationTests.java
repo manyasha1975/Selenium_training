@@ -35,10 +35,8 @@ public class RegistrationTests extends TestBase {
     app.driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
     app.driver.findElement(By.cssSelector("input[name='confirmed_password']")).sendKeys(password);
     app.driver.findElement(By.cssSelector("button[name='create_account']")).click();
-    app.driver.findElement(By.cssSelector("a[href='http://localhost/litecart/en/logout']")).click();
-    app.driver.findElement(By.cssSelector("input[name='email']")).sendKeys(email);
-    app.driver.findElement(By.cssSelector("input[name='password']")).sendKeys(password);
-    app.driver.findElement(By.cssSelector("button[name='login']")).click();
-    app.driver.findElement(By.cssSelector("a[href='http://localhost/litecart/en/logout']")).click();
+    app.session().logout();
+    app.session().loginAs(email, password);
+    app.session().logout();
   }
 }

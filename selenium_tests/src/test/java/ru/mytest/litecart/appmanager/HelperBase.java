@@ -4,6 +4,8 @@ import org.openqa.selenium.*;
 
 import java.io.File;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
+
 public class HelperBase {
 
   protected WebDriver driver;

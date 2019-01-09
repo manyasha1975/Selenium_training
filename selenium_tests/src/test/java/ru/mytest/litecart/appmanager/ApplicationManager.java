@@ -25,12 +25,12 @@ public class ApplicationManager {
   public EventFiringWebDriver driver;
   public SessionHelper sessionHelper;
   public NavigationHelper navigationHelper;
+  public ProductHelper productHelper;
 
   public boolean acceptNextAlert = true;
   public String baseUrl;
   public StringBuffer verificationErrors = new StringBuffer();
   private String browser;
-  private String user;
   public WebDriverWait wait;
 
   public ApplicationManager(String browser) {
@@ -81,9 +81,9 @@ public class ApplicationManager {
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     wait = new WebDriverWait(driver, 5);
     sessionHelper = new SessionHelper(this);
+    navigationHelper = new NavigationHelper(this);
+    productHelper = new ProductHelper(this);
     driver.get(properties.getProperty("web.baseUrl"));
-    //driver.get(properties.getProperty("web.adminUrl"));
-    //sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
   }
 
   public String getProperty(String key) {
@@ -98,8 +98,16 @@ public class ApplicationManager {
     }
   }
 
+  public SessionHelper session() {
+    return sessionHelper;
+  }
+
   public NavigationHelper goTo() {
     return navigationHelper;
+  }
+
+  public ProductHelper product() {
+    return productHelper;
   }
 
 }
